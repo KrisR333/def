@@ -1,0 +1,145 @@
+body{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+.superficie{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: #000;
+    box-shadow: 0 0 50px #0ef;
+    border-radius: 20px;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.superficie:hover{
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+.form-superficie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition:  1s ease-in-out;
+}
+
+.superficie.active .form-superficie.sig-in{
+    transform: translateY(-450px);
+
+}
+
+
+.superficie.form-superficie.sign-up{
+    position: absolute;
+    top: 450px;
+    left: 0;
+    width: 100%;
+}
+
+.superficie.active .form-superficie.sig-up{
+    transform: translateY(-450px);
+  
+}
+
+
+h2{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.Grupo-input{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+
+}
+.Grupo-input label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.Grupo-input input{
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.Grupo-input input:focus~label,
+.Grupo-input input:valid~label{
+    top: -5px;
+}
+.Recordar{
+    margin: -5px 0 15px 5px;
+}
+.Recordar label{
+    color: #fff;
+    font-size: 14px;
+}
+
+.Recordar label input{
+    accent-color: #0ef;
+}
+button{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.Registro-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.Registro-link p{
+    color: #fff;
+
+}
+.Registro-link p a {
+    color: #0ef;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.Registro-link p a:hover{
+text-decoration: underline;
+}
+footer{
+ background-color: #000;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 10px;
+ color: white;
+}

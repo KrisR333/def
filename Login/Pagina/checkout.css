@@ -1,0 +1,109 @@
+.checkout {
+    padding: 50px 0;
+}
+
+.checkout h1 {
+    font-size: 2.5em;
+    color: #feffff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.checkout-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+h1{
+    color: #feffff;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.item-details h3 {
+    color: #feffff;
+    margin-bottom: 5px;
+}
+
+.item-details p {
+    color: #7270EC;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.total h2 {
+    color: #feffff;
+    font-size: 1.5em;
+}
+
+#pay-button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 1.2em;
+}
+.purchase-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.purchase-info li {
+    color: #feffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+}
+
+.purchase-info li strong {
+    color: #7270EC;
+    margin-right: 10px;
+}
+        .shipping-form {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .shipping-form h2 {
+            color: #feffff;
+            margin-bottom: 15px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            color: #feffff;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #7270EC;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.05);
+            color: #feffff;
+        }
+        .form-group input:focus {
+            outline: none;
+            border-color: #feffff;
+        }

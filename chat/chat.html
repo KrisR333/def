@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chunkybot - Tu asistente de modas</title>
+    <link rel="stylesheet" href="styleC.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="logo2">
+                <img src="/Login/Pagina/img´s/_ac40c5a0-7f71-49cc-afa3-0e27a01153fa.jpeg" alt="logo2">
+                Chunky Sneakers
+            </div>
+            
+            <p>Tu asistente en moda y tendencias</p>
+        </header>
+        <div id="chatMessages" class="chat-messages">
+            <div class="message bot-message">
+                ¡Hola! Soy Chunkybot, tu asistente virtual especializado en moda y las nuevas tendencias que hay hoy en dia. ¿En qué puedo ayudarte hoy?
+            </div>
+        </div>
+        <div class="question-suggestions" id="questionSuggestions">
+        </div>
+        <div class="chat-controls">
+            <button id="clearChatButton" class="clear-chat-button">Limpiar Chat</button>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Escribe tu pregunta aquí...">
+                <button id="sendButton">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>

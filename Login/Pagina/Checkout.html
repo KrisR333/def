@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Sweet Fashion</title>
+    <link rel="stylesheet" href="Estilo-Pagina.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="Pagina.html" class="logo">Sweet Fashion</a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Pagina.html">Inicio</a></li>
+                    <li><a href="Pagina.html#lista-1">Promociones</a></li>
+                    <li><a href="Pagina.html#lista-2">Productos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1>Checkout</h1>
+        <hr>
+        <div class="checkout-content">
+            <div id="cart-items">
+                <!-- Los items del carrito se insertarán aquí -->
+            </div>
+            <div class="total">
+                <h2>Total: <span id="cart-total">$0.00</span></h2>
+            </div>
+        </div>
+    </main>
+
+
+    <main class="checkout container">
+        <div class="shipping-form">
+            <h2>Datos de Envío</h2>
+            <form id="shipping-info-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion" required>
+                </div>
+                <div class="form-group">
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad" required>
+                </div>
+                <div class="form-group">
+                    <label for="codigo-postal">Código Postal:</label>
+                    <input type="text" id="codigo-postal" name="codigo-postal" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Tarjeta">Tarjeta de credito/debito</label>
+                    <input type="text" id="Tarjeta" name="Tarjeta" required>
+                </div>
+                <div class="form-group">
+                    <label for="CVV">CVV</label>
+                    <input type="password" id="CVV" name="CVV" required>
+                </div>
+                <div class="form-group">
+                    <label for="Fecha">DD/MM/AA</label>
+                    <input type="date" id="Fecha" name="Fecha" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Nombre del titular</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <ul class="purchase-info">
+                    <li><strong>Envío:</strong> Gratis</li>
+                    <li><strong>Tiempo Estimado de Entrega:</strong> 3-5 días hábiles</li>
+                </ul>
+                <a href="/Login/Pagina/gracias/grax.html" id="pay-button" class="btn-1">Proceder al Pago</a>
+            </form>
+        </div>
+
+        
+    <footer class="footer container">
+        <div class="link">
+            <h3>Sweet Fashion</h3>
+            <p>Gracias por tu compra</p>
+        </div>
+    </footer>
+    <script src="checkout.js"></script>
+</body>
+</html>
